@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "title": "Mochila Fjallraven para Laptops de até 15 polegadas",
+      "price": 109.95,
+      "description": "Sua mochila perfeita para uso diário e caminhadas na floresta. Guarde seu laptop (de até 15 polegadas) no compartimento acolchoado, seu companheiro diário.",
+      "category": "roupas masculinas",
+      "image": "https://i.ibb.co/thvHMwD/81f-PKd-2-AYL-AC-SL1500.png",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      }
+    },
+    {
+      "id": 2,
+      "title": "Camiseta Raglan Masculina Manga 3/4 Casual Premium Slim Fit",
+      "price": 22.3,
+      "description": "Estilo ajustado, mangas compridas raglan contrastantes, gola henley com três botões, tecido leve e macio para maior respirabilidade e conforto. Camisetas costuradas de forma sólida com gola redonda para maior durabilidade e ótimo caimento para uso casual ou para fãs fervorosos de beisebol. A gola henley inclui uma abertura de três botões.",
+      "category": "roupas masculinas",
+      "image": "https://i.ibb.co/0s3kZFM/71-3-Hj-GNDUL-AC-SY879-SX-UX-SY-UY.png",
+      "rating": {
+        "rate": 4.1,
+        "count": 259
+      }
+    },
+    {
+      "id": 3,
+      "title": "Jaqueta de Algodão Masculina",
+      "price": 55.99,
+      "description": "Ótimas jaquetas para uso na primavera/outono/inverno, adequadas para muitas ocasiões, como trabalho, caminhadas, acampamentos, escaladas em montanhas/rochas, ciclismo, viagens ou outras atividades ao ar livre. Uma ótima opção de presente para você ou um membro da sua família. Uma demonstração de amor caloroso para o pai, marido ou filho neste Dia de Ação de Graças ou Natal.",
+      "category": "roupas masculinas",
+      "image": "https://i.ibb.co/Tc5WrTk/71li-ujtl-UL-AC-UX679.png",
+      "rating": {
+        "rate": 4.7,
+        "count": 500
+      }
+    },
+    {
+      "id": 4,
+      "title": "Camiseta Masculina Manga Longa Casual Slim Fit",
+      "price": 15.99,
+      "description": "A cor pode ser ligeiramente diferente entre a tela e a prática. / Por favor, observe que a estrutura corporal varia de pessoa para pessoa, portanto, informações detalhadas sobre o tamanho devem ser revisadas abaixo na descrição do produto.",
+      "category": "roupas masculinas",
+      "image": "https://i.ibb.co/tHj2RFL/71-YXze-Ousl-L-AC-UY879.png",
+      "rating": {
+        "rate": 2.1,
+        "count": 430
+      }
+    },
+    {
+      "id": 5,
+      "title": "Pulseira Feminina John Hardy Legends Naga em Ouro e Prata",
+      "price": 695,
+      "description": "Da nossa Coleção Legends, a Naga foi inspirada no dragão mítico da água que protege a pérola do oceano. Use virada para dentro para ser agraciada com amor e abundância, ou para fora para proteção.",
+      "category": "joias",
+      "image": "https://i.ibb.co/cTZyKwq/71p-Wzhd-JNw-L-AC-UL640-QL65-ML3.png",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    }
+  ]
+  
