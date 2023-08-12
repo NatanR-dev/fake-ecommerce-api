@@ -4,7 +4,7 @@
 ###### Get started by consuming it, example:
 
 ```
-fetch('https://fake-ecommerce-api.up.railway.app/api/items')
+fetch('https://fake-ecommerce-api-cdm5.onrender.com/api/items')
             .then(res=>res.json())
             .then(json=>console.log(json))
 ```
