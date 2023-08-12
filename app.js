@@ -15,7 +15,14 @@ app.get("/", (req, res) => {
 });
 
 app.get("/api/items", (req, res) => {
-  res.json(items);
+  const limit = parseInt(req.query.limit);
+
+  if (!isNaN(limit) && limit > 0) {
+    const limitedItems = items.slice(0, limit);
+    res.json(limitedItems);
+  } else {
+    res.status(400).json({ error: "Invalid Limit Parameter." });
+  }
 });
 
 const port = process.env.PORT || 3000;
