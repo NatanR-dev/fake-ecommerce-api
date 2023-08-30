@@ -17,11 +17,15 @@ app.get("/", (req, res) => {
 app.get("/api/items", (req, res) => {
   const limit = parseInt(req.query.limit);
 
-  if (!isNaN(limit) && limit > 0) {
+  if (!isNaN(limit) && limit > 0 && limit <= items.length) {
     const limitedItems = items.slice(0, limit);
     res.json(limitedItems);
+  } else if (limit > items.length) {
+    res
+      .status(400)
+      .json({ error: "Limit is greater than the number of items." });
   } else {
-    res.status(400).json({ error: "Invalid Limit Parameter." });
+    res.json(items);
   }
 });
 
